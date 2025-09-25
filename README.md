@@ -1,4 +1,4 @@
-### AI Chatbots Course
+## AI Chatbots Course
 
 <br/> 
 
