@@ -50,11 +50,13 @@
 
 - **Text generation models**: generate new text given another text, called the **prompt**. Other names: causal, autoregressive. Example: Google's Gemini 2.5 Flash, OpenAi's GPT-5.
 
-    + Code models.
+ + General-purpose models.
 
-    + General-purpose models.
-    
-    + **Reasoning** models.
+º + **Code** models.
+ 
+ + **Reasoning** models.
+
+ + **Deep research** models.
 
 - **Embedding models**: generate vector representations. Examples: Google's gemini-embedding-001, OpenAI's text-embedding-3-small.
 
