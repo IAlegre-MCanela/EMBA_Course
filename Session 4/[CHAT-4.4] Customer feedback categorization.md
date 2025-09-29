@@ -41,10 +41,9 @@ Feedback: The new dashboard is a mess! It takes forever to load, and I cant find
 
 Feedback: Your pricing is ridiculous! $99/mo for basic features? I'm switching to a competitor.
 
-## Output (Gemini 2.5 Flash)
+## Output (gemma-3-4b-it)
 
 ```
-JSON
 {
     "feedback": "Your pricing is ridiculous! $99/mo for basic features? I'm switching to a competitor.",
     "category": "Pricing",
