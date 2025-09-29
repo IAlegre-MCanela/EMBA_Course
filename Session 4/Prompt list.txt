@@ -137,5 +137,3 @@ Message: You can't ignore this
 {"message": "You can't ignore this", "label": "neutral"}
 </example>
 Message: I'm excited about the new course on AI
-
----
