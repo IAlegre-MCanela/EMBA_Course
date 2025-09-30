@@ -91,26 +91,6 @@ You are provided with a JSON object with the keys "quality" and "price". Your ta
 
 ## Input
 
-You are an AI assistant helping the Marketing department to summarize the information extracted from product reviews.
-
-You are provided with a JSON object with the keys "quality" and "price". Your task is to shorten the value of each key to no more than 10 words.
-
-{
-  "quality": "El producto tiene una calidad de sonido excelente, con un acabado impecable y funcionamiento perfecto. Cumple bien en eventos pequeños como reuniones familiares o con amigos. Sin embargo, la batería es un punto débil, ya que solo dura entre 4 y 5 horas con uso moderado, aunque el tiempo de carga es rápido.",
-  "price": "Los productos JBL son considerados caros, aunque el cliente señala que valen la pena. Se menciona que, por el precio, deberían incluir un cargador."
-}
-
-## Output (ChatGPT)
-
-{
-"quality": "Excelente sonido y acabado, batería limitada pero carga rápida.",
-"price": "Caro, vale la pena, debería incluir cargador."
-}
-
----
-
-## Input
-
 Your task is to extract relevant information from a product review from an ecommerce site to give feedback to the Marketing department.
 Given a review:
 
