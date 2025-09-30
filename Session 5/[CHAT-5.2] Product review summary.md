@@ -102,9 +102,11 @@ Given a review:
 
 4. Present the information as a JSON object with keys "quality" and "price". 
 
+```
 <review>
 A qualidade JBL é algo indiscutível, ótima qualidade de som, acabamento impecável, funcionamento perfeito. Os produtos JBL são caros, mas valem a pena, pelo preço poderiam fornecer um carregador. Uso em pequenos eventos como churrasco em família ou amigos e ela atende perfeitamente. A bateria não é das melhores, entrega umas 4 a 5 horas de uso moderado. Seu carregamento é bem rápido. O atendimento da loja me surpreendeu. Adorei a aquisição.
 </review>
+```
 
 ## Output (ChatGPT)
 
