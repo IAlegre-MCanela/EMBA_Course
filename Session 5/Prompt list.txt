@@ -45,6 +45,7 @@ A qualidade JBL é algo indiscutível, ótima qualidade de som, acabamento impec
 </review>
 
 ---
+
 You are an AI assistant helping the Marketing department to summarize the information extracted from product reviews.
 You are provided with a JSON object with the keys "quality" and "price". Your task is to shorten the value of each key to no more than 10 words.
 {
