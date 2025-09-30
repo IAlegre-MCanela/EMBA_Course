@@ -43,6 +43,8 @@ json
 ```
 ---
 
+## Input
+
 Your task is to extract relevant information from a product review from an ecommerce site to give feedback to the Marketing department.
 
 From the review below, extract the information relevant to product quality and price. Present your analysis in Spanish, as a JSON object with keys "quality" and "price". 
