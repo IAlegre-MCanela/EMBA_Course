@@ -1,0 +1,70 @@
+Prompt list
+===========
+
+Ten years ago, my age was four times the age of my brother. Right now, it is the double. How old am I?
+(A) 20 years old
+(B) 40 years old
+(C) 25 years old
+(D) 35 years old
+(E) None of the others
+
+---
+
+Ten years ago, my age was four times the age of my brother. Right now, it is the double. How old am I?
+(A) 20 years old
+(B) 40 years old
+(C) 25 years old
+(D) 35 years old
+(E) None of the others
+Answer in a single token.
+
+---
+
+Your task is to extract relevant information from a product review from an ecommerce site to give feedback to the Marketing department.
+From the review below, extract the information relevant to product quality and price. Present your analysis according to following guidelines:
+(a) Maximum length: 30 words.
+(b) Language: Spanish.
+<review>
+A qualidade JBL é algo indiscutível, ótima qualidade de som, acabamento impecável, funcionamento perfeito. Os produtos JBL são caros, mas valem a pena, pelo preço poderiam fornecer um carregador. Uso em pequenos eventos como churrasco em família ou amigos e ela atende perfeitamente. A bateria não é das melhores, entrega umas 4 a 5 horas de uso moderado. Seu carregamento é bem rápido. O atendimento da loja me surpreendeu. Adorei a aquisição.
+</review>
+
+---
+
+Your task is to extract relevant information from a product review from an ecommerce site to give feedback to the Marketing department.
+From the review below, extract the information relevant to product quality and price. Present your analysis in Spanish, as a JSON object with keys "quality" and "price". Use no more than 10 words for each key.
+<review>
+A qualidade JBL é algo indiscutível, ótima qualidade de som, acabamento impecável, funcionamento perfeito. Os produtos JBL são caros, mas valem a pena, pelo preço poderiam fornecer um carregador. Uso em pequenos eventos como churrasco em família ou amigos e ela atende perfeitamente. A bateria não é das melhores, entrega umas 4 a 5 horas de uso moderado. Seu carregamento é bem rápido. O atendimento da loja me surpreendeu. Adorei a aquisição.
+</review>
+
+---
+
+Your task is to extract relevant information from a product review from an ecommerce site to give feedback to the Marketing department.
+From the review below, extract the information relevant to product quality and price. Present your analysis in Spanish, as a JSON object with keys "quality" and "price". 
+<review>
+A qualidade JBL é algo indiscutível, ótima qualidade de som, acabamento impecável, funcionamento perfeito. Os produtos JBL são caros, mas valem a pena, pelo preço poderiam fornecer um carregador. Uso em pequenos eventos como churrasco em família ou amigos e ela atende perfeitamente. A bateria não é das melhores, entrega umas 4 a 5 horas de uso moderado. Seu carregamento é bem rápido. O atendimento da loja me surpreendeu. Adorei a aquisição.
+</review>
+
+---
+You are an AI assistant helping the Marketing department to summarize the information extracted from product reviews.
+You are provided with a JSON object with the keys "quality" and "price". Your task is to shorten the value of each key to no more than 10 words.
+{
+  "quality": "La calidad del producto es excelente: sonido de alta calidad, acabado impecable y funcionamiento perfecto. Es adecuado para eventos pequeños y cumple bien su función. Sin embargo, la batería podría ser mejor, ya que dura entre 4 y 5 horas con uso moderado, aunque se carga rápidamente.",
+  "price": "El producto es caro, pero vale la pena por lo que ofrece. El cliente considera que, dado el precio, debería incluir un cargador."
+}
+
+---
+
+Your task is to extract relevant information from a product review from an ecommerce site to give feedback to the Marketing department.
+Given a review:
+
+1. Extract the information relevant to product quality and price. 
+
+2. Write that information in Spanish.
+
+3. Summarize the information about quality and price in no more than 10 words for each topic.
+
+4. Present the information as a JSON object with keys "quality" and "price". 
+
+<review>
+A qualidade JBL é algo indiscutível, ótima qualidade de som, acabamento impecável, funcionamento perfeito. Os produtos JBL são caros, mas valem a pena, pelo preço poderiam fornecer um carregador. Uso em pequenos eventos como churrasco em família ou amigos e ela atende perfeitamente. A bateria não é das melhores, entrega umas 4 a 5 horas de uso moderado. Seu carregamento é bem rápido. O atendimento da loja me surpreendeu. Adorei a aquisição.
+</review>
