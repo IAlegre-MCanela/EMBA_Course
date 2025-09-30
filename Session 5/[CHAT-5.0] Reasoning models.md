@@ -2,7 +2,7 @@
 
 ---
 
-## Chain-of-Thought prompting and reasoning models
+## Chain-of-Thought prompting
 
 - **A chain of thought** (CoT) is sequence of logical steps, called **reasoning steps**, to be followed in order to arrive at an answer.
 
