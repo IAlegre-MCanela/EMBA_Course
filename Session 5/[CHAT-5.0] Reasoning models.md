@@ -38,6 +38,8 @@
 
 - Allows the use of external tools.
 
+---
+
 ## Reasoning models
 
 - A **reasoning model** is a large language model (LLM) that has been fine-tuned to break complex problems into reasoning steps, prior to generating a final output. 
