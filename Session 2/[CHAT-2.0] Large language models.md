@@ -8,7 +8,7 @@
  
 - It is not a **large language model** (LLM), but a user interface built around one.
 
-- Chatbot arena: ChatGPT (OpenAI), Claude (Anthropic), Gemini (Google), Grok (X AI), Copilot (Microsoft), Coral (Cohere), Le Chat (Mistral AI), DeepSeek (High-Flyer), Qwen (Alibaba).
+- Chatbot supply: ChatGPT (OpenAI), Claude (Anthropic), Gemini (Google), Grok (X AI), Copilot (Microsoft), Coral (Cohere), Le Chat (Mistral AI), DeepSeek (High-Flyer), Qwen (Alibaba).
 
 ---
 
