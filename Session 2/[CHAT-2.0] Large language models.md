@@ -52,7 +52,7 @@
 
  + General-purpose models.
 
-º + **Code** models.
+ + **Code** models.
  
  + **Reasoning** models.
 
