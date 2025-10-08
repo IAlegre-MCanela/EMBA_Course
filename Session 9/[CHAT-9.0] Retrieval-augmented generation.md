@@ -82,13 +82,11 @@
 
 - Clustering. 
 
-- Prediction. 
+- Classification. 
 
 - Recommendation. 
 
 - Outlier detection. 
-
-- Text generation LLMs.
 
 - Semantic search.
 
