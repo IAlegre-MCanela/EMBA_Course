@@ -48,7 +48,7 @@
 
 ## LLM taxonomy (1)
 
-- **Text generation models**: generate new text given another text, called the **prompt**. Other names: causal, autoregressive. Example: Google's Gemini 2.5 Flash, OpenAi's GPT-5.
+- **Text generation models**: generate new text given another text, called the **prompt**. Other names: causal, autoregressive. Example: Google's Gemini 2.5 Flash, OpenAi's GPT-5, Anthropic's Claude Sonnet 4.5.
 
     + General-purpose models.
 
@@ -64,9 +64,9 @@
 
 ## LLM taxonomy (2)
 
-- **Proprietory models**: only remote access, usually on a pay-per-use basis. Example: OpenAi's GPT-5, Anthropic's Claude Sonnet 4.
+- **Proprietory models**: only remote access, usually on a pay-per-use basis. Example: GPT-5, Gemini 2.5, Claude Sonnet 4.5.
 
-- **Open models**: either open-source or open-weight. Examples: OpenAI's gpt-oss-20b (open-weight), Google's Gemma 3n E4B (open-weight), Meta's Llama 4 Scout (open-weight), DeepSeek R1 (open-source), Alibaba's Qwen3 14B (open-source).
+- **Open models**: either open-source or open-weight. Examples: OpenAI's gpt-oss-20b (open-weight), Google's Gemma 3n E4B (open-weight), Meta's Llama 4 Scout (open-weight), High-Flyer's DeepSeek R1 (open-source), Alibaba's Qwen3 14B (open-source).
 
     + Local installation: LMStudio, Ollama, Hugging Face, ModelScope.
 
