@@ -98,7 +98,7 @@
 
 - After encoding a collection of documentes as vectors, how can we store these vectors in such a way that they can be efficiently retrieved?
 
-- The response (so far) of the industry to this question is the **vector database**:
+- The response (so far) of the industry to this question is the vector database:
 
     + Free databases like **ChromaDB**. 
 
