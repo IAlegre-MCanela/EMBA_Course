@@ -15,6 +15,7 @@
     + The knowledge base containing those data is too big to be included as part of the prompt.
 
 - An alternative approach is **fine-tuning** (*i.e*. re-training) the LLm with your data. 
+
 ---
 
 ## Retrieval-augmented generation (RAG)
@@ -30,6 +31,8 @@
     + Performance.
 
     + Processing.
+
+---
 
 ## Fine-tuning
 
