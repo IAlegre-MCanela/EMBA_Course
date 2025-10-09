@@ -4,7 +4,7 @@
 
 | Date | Session                                      | Professor            |
 |---------------|-------------------------------------------|------------------------|
-| OCT/20 | Introduction to IA and GenAI                | I Alegre            |
+| OCT/20 | Introduction to AI and GenAI                | I Alegre            |
 | | Large Language Models (LLMs)                 | MA Canela    |
 | OCT/21 | Use Cases                                  | I Alegre            |
 | | Prompt Engineering                          | MA Canela    |
