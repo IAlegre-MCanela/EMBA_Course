@@ -6,17 +6,6 @@ SQL query for BigQuery that pulls from my ecommerce.products table and returns i
 
 ## Output (Quen 3 4B)
 
-```
-sql
-
-SELECT id, cost, name, brand, retail_price, sku 
-FROM `ecommerce.products` 
-WHERE department = 'Men' AND category = 'Swim';
-```
-
-**Explanation:**  
-This query selects specific columns from the `products` table, filtering rows where the `department` is "Men" and the `category` is "Swim". The backticks around `ecommerce.products` ensure proper handling of table names in BigQuery.
-
 To write a SQL query for BigQuery that pulls the specified fields (`id`, `cost`, `name`, `brand`, `retail_price`, and `sku`) from the `ecommerce.products` table and filters for products in the "Men" department and "Swim" category, you can use the following query:
 
 ```
@@ -37,12 +26,17 @@ WHERE
 ```
 
 ### Explanation:
+
 - `id`, `cost`, `name`, `brand`, `retail_price`, and `sku` are the columns you're selecting.
+
 - The `FROM` clause specifies the `ecommerce.products` table. Replace `your_project_id` and `your_dataset_id` with your actual project and dataset IDs in BigQuery.
+
 - The `WHERE` clause filters the results to only include products where the `department` is "Men" and the `category` is "Swim".
 
 ### Notes:
+
 - Make sure the column names (`department`, `category`, etc.) match the actual column names in your `ecommerce.products` table. Adjust them if necessary.
+
 - If your department or category names are case-sensitive or have different formats (like "men" vs "Men"), make sure to account for that in the query.
 
 Let me know if you need further assistance or adjustments!
