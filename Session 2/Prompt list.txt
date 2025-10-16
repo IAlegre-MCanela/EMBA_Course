@@ -24,19 +24,19 @@ Apply the function to a few examples.
 
 ---
 
-Google Sheet formula which copies all rows from sheet1 where column "A" contains word "iphone".
-
----
-
-Excel formula which copies all rows from sheet1 where column "A" contains word "iphone".
-
----
-
 SQL query for BigQuery that pulls from my ecommerce.products table and returns id, cost, name, brand, retail_price, and sku. The query should be filtered to show only "Men" department and "Swim" category.
 
 ---
 
 I need a SQL query for MySQL. My schema name is ecommerce and the tables are users and orders. I want an output that gives me each user's name (users.name) and email, with the total number of orders each user has made, and the total number of items they have purchased (orders.num_of_item). The orders table has a user_id column. I also need to filter to only show orders with status of "Complete" and created_at later than Jan 1, 2020. Order the results by the total number of orders from highest at the top to lowest at the bottom.
+
+---
+
+Google Sheet formula which copies all rows from sheet1 where column "A" contains word "iphone".
+
+---
+
+Excel formula which copies all rows from sheet1 where column "A" contains word "iphone".
 
 ---
 
