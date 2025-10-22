@@ -46,6 +46,10 @@
 
 - A reasoning model builds the chain of thought by itself. This part is presented separately in some chat apps. For instance, DeepSeek encloses it between the tags `<think>` and `</think>`.
 
+---
+
+## Continuation
+
 - In chat apps, most of the prompts do not require reasoning, and reasoning delays the response, so it is presented as an option. Under the hood, the choice involves choosing between two different models (possibly with ther same architecture but different parameter values).
 
 - Reasoning involves managing very long sequences of tokens. A small reasoning model may have trouble with this.
