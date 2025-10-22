@@ -2,7 +2,7 @@
 
 ---
 
-## Application programming interface (APIs)
+## Application programming interfaces (APIs)
 
 - An **application programming interface** (API) is a way for two or more computer programs or components to communicate with each other. 
 
