@@ -1,7 +1,0 @@
-Google API keys (do not propagate)
-==================================
-key 1: AIzaSyD6GTmWWOl4lZksmphIP0ElUU9JrXXAMyg
-key 2: AIzaSyDDmwcpz0cyRH6AkTU69xnRRG7ckMEa7Bk
-key 3: AIzaSyDvggPuWZLOvKU0MNmiIhUpmL-Qt-i9PpI
-key 4. AIzaSyCz-MfXVZalmiAp2vltq1frUyvoa5nGz-k
-key 5: AIzaSyCa3N-UjX-nW8ThRWRG3R6PY6ba8z9dyQw
